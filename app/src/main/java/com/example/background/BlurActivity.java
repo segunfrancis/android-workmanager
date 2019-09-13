@@ -99,7 +99,6 @@ public class BlurActivity extends AppCompatActivity {
             case R.id.radio_blur_lv_3:
                 return 3;
         }
-
         return 1;
     }
 }

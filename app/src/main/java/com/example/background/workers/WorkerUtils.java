@@ -32,8 +32,8 @@ import androidx.renderscript.RenderScript;
 import androidx.renderscript.ScriptIntrinsicBlur;
 import android.util.Log;
 
-import com.example.background.Constants;
 import com.example.background.R;
+import com.example.background.Constants;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -67,7 +67,7 @@ final class WorkerUtils {
             String description = Constants.VERBOSE_NOTIFICATION_CHANNEL_DESCRIPTION;
             int importance = NotificationManager.IMPORTANCE_HIGH;
             NotificationChannel channel =
-                    new NotificationChannel(Constants.CHANNEL_ID, name, importance);
+                    new NotificationChannel(CHANNEL_ID, name, importance);
             channel.setDescription(description);
 
             // Add the channel
